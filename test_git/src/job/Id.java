@@ -40,7 +40,7 @@ public class Id extends JFrame implements ActionListener{
 		add(jlblresult);
 		
 		jlblresult.setBounds(100, 100, 50, 50);
-		setSize(320,320);
+		setSize(330,330);
 		setVisible(true);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
