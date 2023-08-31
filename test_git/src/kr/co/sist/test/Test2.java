@@ -1,4 +1,4 @@
-package kr.co.sist.test11;
+package kr.co.sist.test;
 
 public class Test2 {
 
