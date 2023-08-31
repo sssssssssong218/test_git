@@ -4,6 +4,7 @@ import java.awt.FileDialog;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
@@ -31,7 +32,7 @@ public class JavaMemoEvt extends WindowAdapter implements ActionListener{
 		}
 		
 		//열기를 하지 않은 상태에서 내용이 있다면 저장여부를 묻고 파일명 설정하여 저장후 jta초기화
-		if(!openBoolean&&!jm.getJta().getText().equals("")) {
+		if(!jm.getJta().getText().equals("")) {
 			int option=JOptionPane.showConfirmDialog(jm, "변경 내용을 제목 없음에 지정하시겠습니까?","메모장",JOptionPane.YES_NO_CANCEL_OPTION);
 			switch (option) {
 			case JOptionPane.OK_OPTION:
@@ -87,17 +88,36 @@ public class JavaMemoEvt extends WindowAdapter implements ActionListener{
 		}
 	}//overwrite
 	
+	public void fileOpen() {
+		
+	}
+	
+	public void fileNewSave() {
+		
+	}
+	
+	public void font() {
+		
+	}
+	
+	public void help() {
+		
+	}
+	
 	public void fileSave() {
-		if(!openBoolean) {
-			//파일을 열지 않았다면 새 이름으로 저장
-			
-		}
+		
 	}
 	
 	public void memoClose() {
 		jm.dispose();
 	}
 	
+	
+	@Override
+	public void windowClosing(WindowEvent e) {
+		jm.dispose();
+	}
+
 	@Override
 	public void actionPerformed(ActionEvent ae) {
 		//새글
@@ -111,29 +131,28 @@ public class JavaMemoEvt extends WindowAdapter implements ActionListener{
 		}
 		
 		//열기
+		if(ae.getSource()==jm.getJmiOpen()) {
+			fileOpen();
+		}
+		
+		//저장
 		if(ae.getSource()==jm.getJmiSave()) {
 			fileSave();
 		}
-//		
-//		//저장
-//		if(ae.getSource()==jm.getJmiNew()) {
-//			fileNew();
-//		}
-//		
-//		//다른이름 저장
-//		if(ae.getSource()==jm.getJmiNew()) {
-//			fileNew();
-//		}
-//		
-//		//자동줄바꿈
-//		if(ae.getSource()==jm.getJmiNew()) {
-//			fileNew();
-//		}
-//		
-//		//도움말
-//		if(ae.getSource()==jm.getJmiNew()) {
-//			fileNew();
-//		}
+		
+		//다른이름 저장
+		if(ae.getSource()==jm.getJmiNewSave()) {
+			fileNewSave();
+		}
+		
+		if(ae.getSource()==jm.getJmiFont()) {
+			font();
+		}
+
+		//도움말
+		if(ae.getSource()==jm.getJmiHelp()) {
+			help();
+		}
 		
 	}
 		
