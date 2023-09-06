@@ -8,141 +8,126 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
 
-public class JavaMemo extends JFrame{
+@SuppressWarnings("serial")
+public class JavaMemo extends JFrame {
+	
 	private JTextArea jta;
-	private JScrollPane jspText;
 	private JMenuItem jmiNew;
 	private JMenuItem jmiOpen;
 	private JMenuItem jmiSave;
 	private JMenuItem jmiNewSave;
 	private JMenuItem jmiClose;
+	private JMenuItem jmiWrap;
 	private JMenuItem jmiFont;
 	private JMenuItem jmiHelp;
+	private JScrollPane jspText;
 	
 	public JavaMemo() {
 		super("메모장");
-		JMenu jmFile=new JMenu("파일");
 		
-		jmiNew=new JMenuItem("새글");
-		jmiOpen=new JMenuItem("열기");
-		jmiSave=new JMenuItem("저장");
-		jmiNewSave=new JMenuItem("다른 이름으로 저장");
-		jmiClose=new JMenuItem("닫기");
+		//메뉴
+		JMenu jmFile = new JMenu("파일");
+		
+		jmiNew = new JMenuItem("새글");
+		jmiOpen = new JMenuItem("열기");
+		jmiSave = new JMenuItem("저장");
+		jmiNewSave = new JMenuItem("다른이름으로저장");
+		jmiClose = new JMenuItem("닫기");
 		
 		jmFile.add(jmiNew);
+		jmFile.addSeparator();
 		jmFile.add(jmiOpen);
 		jmFile.add(jmiSave);
 		jmFile.add(jmiNewSave);
+		jmFile.addSeparator();
 		jmFile.add(jmiClose);
 		
-		JMenu jmForm =new JMenu("서식");
 		
-		jmiFont=new JMenuItem("글꼴");
+		//서식
+		JMenu jmForm = new JMenu("서식");
+		jmiWrap = new JMenuItem("자동 줄 바꿈");
+		jmiFont = new JMenuItem("글꼴");
+		jmForm.add(jmiWrap);
 		jmForm.add(jmiFont);
 		
-		JMenu jmHelp=new JMenu("도움말");
-		
-		jmiHelp=new JMenuItem("메모장 정보");
+		//도움말
+		JMenu jmHelp= new JMenu("도움말");
+		jmiHelp = new JMenuItem("메모장정보");
 		jmHelp.add(jmiHelp);
 		
-		JMenuBar jmbText=new JMenuBar();
+		//메뉴바
+		JMenuBar jmbText = new JMenuBar();
 		jmbText.add(jmFile);
 		jmbText.add(jmForm);
 		jmbText.add(jmHelp);
 		
-		jta=new JTextArea();
-		jspText=new JScrollPane(jta);
+		//TextArea
+		jta = new JTextArea();
+		jspText = new JScrollPane(jta);
 		
-		setJMenuBar(jmbText);
-		
-		JavaMemoEvt jme=new JavaMemoEvt(this);
+		//이벤트 생성
+		JavaMemoEvn jme = new JavaMemoEvn(this);
 		jmiNew.addActionListener(jme);
 		jmiOpen.addActionListener(jme);
 		jmiSave.addActionListener(jme);
 		jmiNewSave.addActionListener(jme);
 		jmiClose.addActionListener(jme);
+		jmiWrap.addActionListener(jme);
 		jmiFont.addActionListener(jme);
 		jmiHelp.addActionListener(jme);
 		
-		addWindowListener(jme);
 		
+		addWindowListener(jme);
+	
+		
+		//추가
 		setJMenuBar(jmbText);
 		add("Center",jspText);
-		setVisible(true);
-		setBounds(300,100,1000,800);
 		
-	}
-
-	public JTextArea getJta() {
-		return jta;
-	}
-
-	public void setJta(JTextArea jta) {
-		this.jta = jta;
+		setBounds(300, 100, 1000, 800);
+		setVisible(true);
+		
+		
 	}
 
 	public JScrollPane getJspText() {
 		return jspText;
 	}
 
-	public void setJspText(JScrollPane jspText) {
-		this.jspText = jspText;
+	public JTextArea getJta() {
+		return jta;
 	}
 
 	public JMenuItem getJmiNew() {
 		return jmiNew;
 	}
 
-	public void setJmiNew(JMenuItem jmiNew) {
-		this.jmiNew = jmiNew;
+	public JMenuItem getJmiWrap() {
+		return jmiWrap;
 	}
 
 	public JMenuItem getJmiOpen() {
 		return jmiOpen;
 	}
 
-	public void setJmiOpen(JMenuItem jmiOpen) {
-		this.jmiOpen = jmiOpen;
-	}
-
 	public JMenuItem getJmiSave() {
 		return jmiSave;
-	}
-
-	public void setJmiSave(JMenuItem jmiSave) {
-		this.jmiSave = jmiSave;
 	}
 
 	public JMenuItem getJmiNewSave() {
 		return jmiNewSave;
 	}
 
-	public void setJmiNewSave(JMenuItem jmiNewSave) {
-		this.jmiNewSave = jmiNewSave;
-	}
-
 	public JMenuItem getJmiClose() {
 		return jmiClose;
-	}
-
-	public void setJmiClose(JMenuItem jmiClose) {
-		this.jmiClose = jmiClose;
 	}
 
 	public JMenuItem getJmiFont() {
 		return jmiFont;
 	}
 
-	public void setJmiFont(JMenuItem jmiFont) {
-		this.jmiFont = jmiFont;
-	}
-
 	public JMenuItem getJmiHelp() {
 		return jmiHelp;
 	}
 
-	public void setJmiHelp(JMenuItem jmiHelp) {
-		this.jmiHelp = jmiHelp;
-	}
-	
 }
