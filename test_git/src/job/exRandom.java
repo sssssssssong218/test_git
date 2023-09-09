@@ -32,7 +32,7 @@ public class exRandom {
 		Arrays.sort(lotto);
 		for(int num :lotto) {
 			System.out.print(num + " ");
-		}
+		} 
 	}
 	
 	public static void main(String[] args) {
