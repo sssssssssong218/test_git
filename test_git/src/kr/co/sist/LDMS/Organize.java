@@ -17,7 +17,7 @@ public class Organize {
 	}// constructor
 	
 	public Organize(LDMS ldms, int endIndex) {
-		this.ldms = ldms;  
+		this.ldms = ldms;     
 		setCntMap(1, endIndex);
 	}// constructor
 
