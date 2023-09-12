@@ -13,7 +13,7 @@ public class Organize {
 
 	public Organize(LDMS ldms, int startIndex, int maxIndex) {
 		this.ldms = ldms;
-		setCntMap(startIndex, maxIndex);
+		setCntMap(startIndex, maxIndex);   
 	}// constructor
 	
 	public Organize(LDMS ldms, int endIndex) {
