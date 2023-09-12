@@ -9,7 +9,7 @@ public class Organize {
 	private Map<String, Integer> typeCnt;
 	private Map<String, Integer> timeCnt;
 	private Map<String, Integer> keyCnt;
-	private LDMS ldms;
+	private LDMS ldms;   
 
 	public Organize(LDMS ldms, int startIndex, int maxIndex) {
 		this.ldms = ldms;

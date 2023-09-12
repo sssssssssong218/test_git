@@ -18,7 +18,7 @@ public class LDMS extends JFrame {
 	private Map<Integer, LogVO> logVOMap;
 	private JScrollPane jsp;
 	private JTextField jtfStartRange;
-	private JTextField jtfEndRange;
+	private JTextField jtfEndRange;   
 	private JTextArea jtaLog;
 	private JButton jbtnSelect;
 	private JButton jbtnReport;
