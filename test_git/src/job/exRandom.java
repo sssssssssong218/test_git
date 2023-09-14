@@ -19,9 +19,9 @@ public class exRandom {
 				if(lotto[j]==lotto[i]) {
 					i--;
 					break;
-				}
-			}
-		}
+				}//end if
+			}//end for
+		}//end for
 		
 		return lotto;
 		
