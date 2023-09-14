@@ -1,0 +1,43 @@
+package job;
+
+import java.util.Arrays;
+import java.util.Random;
+
+public class exRandom {
+
+	public exRandom() {
+		
+	}
+	
+	public int[] lotto() {
+		int[] lotto=new int[6];
+		Random random=new Random();
+		
+		for(int i =0;i<lotto.length;i++) {
+			lotto[i]=random.nextInt(45)+1;
+			for(int j=0;j<i;j++) {
+				if(lotto[j]==lotto[i]) {
+					i--;
+					break;
+				}
+			}
+		}
+		
+		return lotto;
+		
+	}
+	
+	public void printLotto() {
+		int[]lotto=lotto();
+		Arrays.sort(lotto);
+		for(int num :lotto) {
+			System.out.print(num + " ");
+		} 
+	}
+	
+	public static void main(String[] args) {
+		exRandom ran=new exRandom();
+		ran.printLotto();
+	}
+
+}
