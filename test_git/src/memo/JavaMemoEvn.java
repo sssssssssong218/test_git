@@ -28,10 +28,10 @@ public class JavaMemoEvn extends WindowAdapter implements ActionListener {
 
 	private String dir;
 	private String name;
-	private BufferedWriter bw;
+	private BufferedWriter bw; 
 
 	private Font font;
-
+ 
 	public JavaMemoEvn(JavaMemo jm) {
 		this.jm = jm;
 		flag = true;
