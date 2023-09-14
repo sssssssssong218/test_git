@@ -31,7 +31,7 @@ public class JavaMemoEvn extends WindowAdapter implements ActionListener {
 	private BufferedWriter bw;
 
 	private Font font;
-
+ 
 	public JavaMemoEvn(JavaMemo jm) {
 		this.jm = jm;
 		flag = true;
