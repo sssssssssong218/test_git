@@ -36,7 +36,7 @@ public class ResetPassDialogEvt extends MouseAdapter implements ActionListener {
 			if(rpd.getJtfEmpNo().getText().equals(InputEmpno)&&
 				rpd.getJtfEname().getText().equals(InputEname)&&
 				rpd.getJtfSsn().getText().equals(InputSsn)) {
-				JOptionPane.showMessageDialog(rpd, "맞는 비밀번호다 비밀번호 초기화됨");
+				JOptionPane.showMessageDialog(rpd, "맞는 비밀번호다 비밀번호 초기화됨"); 
 				rpd.getJtfEmpNo().setText("");
 				rpd.getJtfEname().setText("");
 				rpd.getJtfSsn().setText("");
