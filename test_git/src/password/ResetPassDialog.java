@@ -22,7 +22,7 @@ public class ResetPassDialog extends JDialog {
 	private JButton jbtnCancel;
 	private JLabel jlblLogoGrey;
 	private JLabel jlblEmpNo;
-	private JLabel jlblEname;
+	private JLabel jlblEname; 
 	private JLabel jlblSsn;
 	private JLabel jlblBg;
 	
