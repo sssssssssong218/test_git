@@ -6,7 +6,7 @@ import java.util.Random;
 public class exRandom {
 
 	public exRandom() {
-		
+		 
 	}//exRandom
 	
 	public int[] lotto() {
