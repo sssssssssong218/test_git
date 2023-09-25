@@ -25,7 +25,7 @@ public class ResetPassDialog extends JDialog {
 	private JLabel jlblEname;      
 	private JLabel jlblSsn;
 	private JLabel jlblBg;
-	
+	  
 	//값 입력 
 	private int inputEmpno;
 	private String inputEname;
