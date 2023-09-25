@@ -7,7 +7,7 @@ public class exRandom {
 
 	public exRandom() {
 		 
-	}//exRandom
+	}//exRandom 
 	
 	public int[] lotto() {     
 		int[] lotto=new int[6];
