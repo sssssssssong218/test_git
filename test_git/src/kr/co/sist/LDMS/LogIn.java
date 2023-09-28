@@ -15,7 +15,7 @@ public class LogIn extends JDialog {
 	private JTextField jtfId;
 	private ImageIcon loginBtnImage;
 	private JButton jbtnLogIn;
-	private JLabel jlblId;
+	private JLabel jlblId; 
 	private JLabel jlblPw;
 	private JLabel jlbl;
 	private String id;
