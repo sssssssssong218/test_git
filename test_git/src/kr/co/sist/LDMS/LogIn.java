@@ -22,7 +22,7 @@ public class LogIn extends JDialog {
 	private LDMS ldms;
   
 	public LogIn(LDMS ldms) {
-		super(ldms, "로그인", true);
+		super(ldms, "로그인", true);  
 		setResizable(false);
 		this.ldms = ldms;
 		// component 객체 생성
