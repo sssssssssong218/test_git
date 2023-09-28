@@ -20,7 +20,7 @@ public class LogIn extends JDialog {
 	private JLabel jlbl;
 	private String id;
 	private LDMS ldms;
-
+  
 	public LogIn(LDMS ldms) {
 		super(ldms, "로그인", true);
 		setResizable(false);
