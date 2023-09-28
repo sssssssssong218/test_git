@@ -23,7 +23,7 @@ public class LogIn extends JDialog {
   
 	public LogIn(LDMS ldms) {
 		super(ldms, "로그인", true);  
-		setResizable(false);
+		setResizable(false);  
 		this.ldms = ldms;
 		// component 객체 생성
 		loginBtnImage = new ImageIcon("c:/dev/workspace/jiha/src/kr/co/sist/LDMS/login btn_lil.png");
