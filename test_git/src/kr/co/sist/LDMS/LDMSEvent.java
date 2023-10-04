@@ -37,7 +37,7 @@ public class LDMSEvent extends WindowAdapter implements ActionListener {
 	public void windowClosing(WindowEvent e) {
 		ldms.dispose();
 	}// windowClosing
-
+ 
 	@Override
 	public void windowClosed(WindowEvent e) { 
 		System.exit(JFrame.ABORT);
