@@ -55,7 +55,7 @@ public class Inputswing extends JFrame implements ActionListener {
 			}
 			else { 
 				jta.append(name+"님\n");
-			}
+			} 
 		}
 	}
 	
