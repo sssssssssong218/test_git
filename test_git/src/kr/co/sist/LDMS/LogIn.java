@@ -21,7 +21,7 @@ public class LogIn extends JDialog {
 	private String id;
 	private LDMS ldms;
    
-	public LogIn(LDMS ldms) {
+	public LogIn(LDMS ldms) { 
 		super(ldms, "로그인", true);  
 		setResizable(false);  
 		this.ldms = ldms;
