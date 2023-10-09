@@ -2,7 +2,7 @@ package job;
 
 import java.util.Calendar;
 
-public class CalendarEx {
+public class CalendarEx { 
 
 	public static void createCalendar(int year,int month) {
 		Calendar cal=Calendar.getInstance();
