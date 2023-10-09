@@ -21,7 +21,7 @@ public class CalendarEx {
 				System.out.println();
 			}
 			startDay++;
-		}
+		} 
 		
 	}
 	
