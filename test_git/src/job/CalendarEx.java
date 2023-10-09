@@ -19,8 +19,8 @@ public class CalendarEx {
 			if(startDay%7==0) {//토요일마다 줄바꿈
 				System.out.println();
 			}
-			startDay++;  
 		}
+
 		
 	}
 	
