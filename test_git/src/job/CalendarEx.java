@@ -15,7 +15,7 @@ public class CalendarEx {
 		for(int i=1;i<startDay;i++) {
 			System.out.print("    ");
 		}
-		for(int i=1;i<=maxDay;i++) {
+		for(int i=1;i<=maxDay;i++) { 
 			System.out.printf("%4d",i);
 			if(startDay%7==0) {//토요일마다 줄바꿈
 				System.out.println();
