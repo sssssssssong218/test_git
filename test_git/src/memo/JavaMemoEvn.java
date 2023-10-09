@@ -34,7 +34,7 @@ public class JavaMemoEvn extends WindowAdapter implements ActionListener {
  
 	public JavaMemoEvn(JavaMemo jm) {
 		this.jm = jm; 
-		flag = true;
+		flag = true; 
 		try {
 			fontInput();
 		} catch (IOException e) {
