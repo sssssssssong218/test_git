@@ -24,7 +24,7 @@ public class JavaMemoEvn extends WindowAdapter implements ActionListener {
 	private FileDialog fd;
 	private boolean flag;
 	private boolean openBoolean;
-	private StringBuffer sbTemp;
+	private StringBuffer sbTemp;  
 
 	private String dir; 
 	private String name; 
