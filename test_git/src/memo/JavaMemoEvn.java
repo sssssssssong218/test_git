@@ -24,17 +24,17 @@ public class JavaMemoEvn extends WindowAdapter implements ActionListener {
 	private FileDialog fd;
 	private boolean flag;
 	private boolean openBoolean;
-	private StringBuffer sbTemp;
+	private StringBuffer sbTemp;  
 
-	private String dir;
-	private String name;
+	private String dir; 
+	private String name; 
 	private BufferedWriter bw; 
 
 	private Font font;
  
 	public JavaMemoEvn(JavaMemo jm) {
-		this.jm = jm;
-		flag = true;
+		this.jm = jm; 
+		flag = true; 
 		try {
 			fontInput();
 		} catch (IOException e) {

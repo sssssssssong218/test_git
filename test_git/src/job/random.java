@@ -23,12 +23,12 @@ public class random {
 				}//end if
 			}//end for
 		}//end for
-		return lotto;
+		return lotto; 
 	}//lotto
 	//2. 위의 일을 호출하여 오름차순으로 정렬하여 출력하는 method를 작성//일을 쓰는 method
 	
-	public void printLotto() {
-		int []lotto=lotto();
+	public void printLotto() {  
+		int []lotto=lotto();  
 		Arrays.sort(lotto);//배열 정렬
 		for(int value : lotto) {//출력
 			System.out.print(value+" ");

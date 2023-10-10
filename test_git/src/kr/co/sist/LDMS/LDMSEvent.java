@@ -31,15 +31,15 @@ public class LDMSEvent extends WindowAdapter implements ActionListener {
 	public LDMSEvent(LDMS ldms2) {
 		this.ldms = ldms2;
 	}// constructor
-
+ 
 	// 윈도우 닫기
-	@Override
+	@Override   
 	public void windowClosing(WindowEvent e) {
 		ldms.dispose();
 	}// windowClosing
-
+ 
 	@Override
-	public void windowClosed(WindowEvent e) {
+	public void windowClosed(WindowEvent e) { 
 		System.exit(JFrame.ABORT);
 	}// windowClosed
 

@@ -53,14 +53,14 @@ public class Inputswing extends JFrame implements ActionListener {
 			if(name.isEmpty()) {
 				JOptionPane.showMessageDialog(this, "이름 입력하세요");
 			}
-			else {
+			else { 
 				jta.append(name+"님\n");
-			}
+			} 
 		}
 	}
 	
 	public static void main(String[] args) {
-		new Inputswing();
-	}
-	
+		new Inputswing(); 
+	} 
+	 
 }
