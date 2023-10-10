@@ -10,7 +10,7 @@ public class exRandom {
 	}//exRandom 
 	
 	public int[] lotto() {     
-		int[] lotto=new int[6]; 
+		int[] lotto=new int[6];  
 		Random random=new Random();
 		  
 		for(int i =0;i<lotto.length;i++) {  
