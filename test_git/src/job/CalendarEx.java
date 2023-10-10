@@ -10,7 +10,7 @@ public class CalendarEx {
 		
 		int maxDay=cal.getActualMaximum(Calendar.DAY_OF_MONTH);//그 달의 마지막 일을 찾아준다.
 		int startDay=cal.get(Calendar.DAY_OF_WEEK);//시작요일 찾아줌
-		
+		 
 		System.out.println("  일   월   화   수   목  금   토");
 		for(int i=1;i<startDay;i++) {
 			System.out.print("    ");
