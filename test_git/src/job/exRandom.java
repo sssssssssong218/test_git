@@ -17,7 +17,7 @@ public class exRandom {
 			for(int j=0;j<i;j++) {
 				if(lotto[j]==lotto[i]) {
 					i--;  
-					break;
+					break; 
 				}//end if
 			}//end for
 		}//end for
