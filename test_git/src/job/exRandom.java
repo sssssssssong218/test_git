@@ -10,14 +10,14 @@ public class exRandom {
 	}//exRandom 
 	
 	public int[] lotto() {     
-		int[] lotto=new int[6]; 
+		int[] lotto=new int[6];  
 		Random random=new Random();
 		  
 		for(int i =0;i<lotto.length;i++) {  
 			for(int j=0;j<i;j++) {
 				if(lotto[j]==lotto[i]) {
 					i--;  
-					break;
+					break; 
 				}//end if
 			}//end for
 		}//end for
