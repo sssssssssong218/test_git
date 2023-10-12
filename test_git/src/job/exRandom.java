@@ -19,7 +19,7 @@ public class exRandom {
 					i--;  
 					break; 
 				}//end if 
-			}//end for
+			}//end for 
 		}//end for
 		
 		return lotto;
