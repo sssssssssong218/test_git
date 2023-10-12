@@ -22,7 +22,7 @@ public class exRandom {
 			}//end for 
 		}//end for
 		
-		return lotto;
+		return lotto; 
 		
 	}
 	
