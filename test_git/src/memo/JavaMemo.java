@@ -18,9 +18,9 @@ public class JavaMemo extends JFrame {
 	private JMenuItem jmiNewSave;
 	private JMenuItem jmiClose;
 	private JMenuItem jmiWrap;
-	private JMenuItem jmiFont;
+	private JMenuItem jmiFont; 
 	private JMenuItem jmiHelp;
-	private JScrollPane jspText;
+	private JScrollPane jspText; 
 	
 	public JavaMemo() {
 		super("메모장");
