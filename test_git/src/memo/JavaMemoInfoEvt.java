@@ -8,6 +8,6 @@ public class JavaMemoInfoEvt extends WindowAdapter implements ActionListener {
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-	}
+	} 
 
 }
