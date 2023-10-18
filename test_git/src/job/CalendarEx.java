@@ -20,7 +20,7 @@ public class CalendarEx {
 			System.out.printf("%4d",i);
 			if(startDay%7==0) {//토요일마다 줄바꿈
 				System.out.println();
-			}
+			} 
 		}
 
 		
