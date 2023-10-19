@@ -28,7 +28,7 @@ public class JavaMemoFontEvt extends WindowAdapter implements ActionListener, Li
 
 		// 스위치로 int 값을 str로 반환
 		switch (style) {
-		case Font.PLAIN:
+		case Font.PLAIN: 
 			strStyle = "일반";
 			break;
 		case Font.BOLD:
