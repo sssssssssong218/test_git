@@ -20,7 +20,7 @@ public class JavaMemoFontEvt extends WindowAdapter implements ActionListener, Li
 
 	public JavaMemoFontEvt(JavaMemoFont jmf, JavaMemo jm) {
 		this.jmf = jmf;
-		this.jm = jm;
+		this.jm = jm; 
 		font = jm.getJta().getFont().getName();
 		style = jm.getJta().getFont().getStyle();
 		size = jm.getJta().getFont().getSize();
