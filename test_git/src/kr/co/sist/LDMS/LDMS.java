@@ -22,7 +22,7 @@ public class LDMS extends JFrame {
 	private JTextArea jtaLog;
 	private JButton jbtnSelect;
 	private JButton jbtnReport;
-	private JButton jbtnView;
+	private JButton jbtnView; 
 	private JLabel jlblStartRange;
 	private JLabel jlblEndRange;  
 	private JLabel imgageIcon;
