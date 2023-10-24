@@ -26,7 +26,7 @@ public class LDMS extends JFrame {
 	private JLabel jlblStartRange;
 	private JLabel jlblEndRange; 
 	private JLabel imgageIcon;
-	private String id;
+	private String id; 
 	private File file;
 
 	public LDMS() {
