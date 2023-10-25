@@ -6,7 +6,7 @@ public class Test11 {
 		System.out.println("ㅎㅎㅎㅎㅎㅎㅎ");
 		System.out.println("ㅎㅎㅎㅎㅎㅎㅎ22222222222");  
 		System.out.println("테스트중");
-	}
+	} 
 
 } 
                
