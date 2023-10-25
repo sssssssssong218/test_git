@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="https://www.ncyok.or.kr:443/theme/basic/css/default.css?ver=1697535328">
 <link rel="stylesheet" href="https://www.ncyok.or.kr:443/skin/board/basic/style.css">
 <!--[if lte IE 8]>
-<script src="https://www.ncyok.or.kr:443/js/html5.js"></script>
+<script src="https://www.ncyok.or.kr:443/js/html5.js"></script> 
 <![endif]-->
 <script>
 // 자바스크립트에서 사용하는 전역변수 선언
