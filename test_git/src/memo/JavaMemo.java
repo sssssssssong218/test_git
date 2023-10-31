@@ -15,7 +15,7 @@ public class JavaMemo extends JFrame {
 	private JMenuItem jmiNew;
 	private JMenuItem jmiOpen;
 	private JMenuItem jmiSave;
-	private JMenuItem jmiNewSave;
+	private JMenuItem jmiNewSave; 
 	private JMenuItem jmiClose;
 	private JMenuItem jmiWrap;
 	private JMenuItem jmiFont; 
