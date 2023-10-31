@@ -22,7 +22,7 @@ public class JavaMemo extends JFrame {
 	private JMenuItem jmiHelp;
 	private JScrollPane jspText; 
 	 
-	public JavaMemo() {
+	public JavaMemo() { 
 		super("메모장");
 		
 		//메뉴 
