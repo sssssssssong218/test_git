@@ -25,7 +25,7 @@ public class JavaMemo extends JFrame {
 	public JavaMemo() { 
 		super("메모장");
 		
-		//메뉴 
+		//메뉴  
 		JMenu jmFile = new JMenu("파일"); 
 		//메모장 생각
 		jmiNew = new JMenuItem("새글");
