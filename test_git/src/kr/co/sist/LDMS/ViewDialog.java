@@ -11,7 +11,7 @@ import java.awt.Font;
 public class ViewDialog extends JDialog {
     private JLabel jlblLog;
 
-    public ViewDialog(LDMS ldms, String msg) {
+    public ViewDialog(LDMS ldms, String msg) { 
     	super(ldms,"분석정보 보기",true);
     	// component 객체 생성
         jlblLog = new JLabel("<html>"+msg.replace("\n", "<br><pre>")+"</html>");
