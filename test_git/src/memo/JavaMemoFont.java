@@ -29,7 +29,7 @@ public class JavaMemoFont extends JDialog {
 	private JLabel jlbStyle;
 	private JLabel jlbSize;
 	private JLabel jlbPreview;
-
+ 
 	private JTextField jtfFont;
 	private JTextField jtfStyle;
 	private JTextField jtfSize;
