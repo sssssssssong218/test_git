@@ -20,7 +20,7 @@ public class JavaMemoFont extends JDialog {
 	private JList<String> JFont;
 	private JList<String> JStyle;
 	private JList<String> JSize;
-	
+	 
 	private JScrollPane jspFont;
 	private JScrollPane jspStyle;
 	private JScrollPane jspSize;
