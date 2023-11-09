@@ -26,7 +26,7 @@ public class JavaMemoFont extends JDialog {
 	private JScrollPane jspSize;
 
 	private JLabel jlbFont;
-	private JLabel jlbStyle;
+	private JLabel jlbStyle; 
 	private JLabel jlbSize; 
 	private JLabel jlbPreview;
  
