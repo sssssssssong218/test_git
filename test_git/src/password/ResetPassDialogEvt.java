@@ -16,7 +16,7 @@ public class ResetPassDialogEvt extends MouseAdapter implements ActionListener {
 		this.rpd = rpd;
 		rpd.addWindowListener(new WindowAdapter() {
 
-			@Override
+			@Override 
 			public void windowClosing(WindowEvent e) {
 				rpd.dispose();
 			}
