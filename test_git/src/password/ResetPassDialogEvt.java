@@ -28,7 +28,7 @@ public class ResetPassDialogEvt extends MouseAdapter implements ActionListener {
 		if(rpd.getJtfEmpNo().getText().length()==0||rpd.getJtfEname().getText().length()==0||
 				rpd.getJtfSsn().getText().length()==0) {
 			JOptionPane.showMessageDialog(rpd, "값을 입력해주세요");
-		}else {
+		}else { 
 			String InputEmpno=String.valueOf(rpd.getInputEmpno());
 			String InputEname=String.valueOf(rpd.getInputEname());
 			String InputSsn=String.valueOf(rpd.getInputSsn());
